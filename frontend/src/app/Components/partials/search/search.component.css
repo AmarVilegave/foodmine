@@ -1,0 +1,44 @@
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  height: 1.5rem;
+  width: 20rem;
+  background-color: #f1f1f1;
+  padding: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: 10rem 0 0 10rem;
+  -webkit-border-radius: 10rem 0 0 10rem;
+  -moz-border-radius: 10rem 0 0 10rem;
+  -ms-border-radius: 10rem 0 0 10rem;
+  -o-border-radius: 10rem 0 0 10rem;
+}
+
+div button {
+  color: grey;
+  height: 2.4rem;
+  width: 5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #e72929;
+  color: white;
+  opacity: 0.8;
+  outline: none;
+  border-radius: 0 10rem 10rem 0;
+  -webkit-border-radius: 0 10rem 10rem 0;
+  -moz-border-radius: 0 10rem 10rem 0;
+  -ms-border-radius: 0 10rem 10rem 0;
+  -o-border-radius: 0 10rem 10rem 0;
+}
+
+div button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
